@@ -1,0 +1,638 @@
+<!doctype html>
+<!--
+	Template:	 Unika - Responsive One Page HTML5 Template
+	Author:		 imransdesign.com
+	URL:		 http://imransdesign.com/
+    Designed By: https://www.behance.net/poljakova
+	Version:	1.0	
+-->
+<html lang="en-US">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>SERC</title>
+		<meta name="description" content="Unika - Responsive One Page HTML5 Template">
+		<meta name="keywords" content="HTML5, Bootsrtrap, One Page, Responsive, Template, Portfolio" />
+		<meta name="author" content="imransdesign.com">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Google Fonts  -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
+
+		<!-- Libs and Plugins CSS -->
+		<link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="inc/animations/css/animate.min.css">
+		<link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
+		<link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
+		<link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
+
+		<!-- Theme CSS -->
+        <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/stylepubl.css">
+		<link rel="stylesheet" href="css/mobile.css">
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="css/skin/cool-gray.css">
+        <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
+        <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
+        <!-- <link rel="stylesheet" href="css/skin/fresh-lime.css"> -->
+        <!-- <link rel="stylesheet" href="css/skin/night-purple.css"> -->
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+
+     
+
+	</head>
+
+    <body onload="magnify('myimage', 3)" data-spy="scroll" data-target="#main-navbar" id="edit">
+        <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+    	<div class="body">
+        
+            <!--========== BEGIN HEADER ==========-->
+            <header id="header" class="header-main">
+
+                <!-- Begin Navbar -->
+                <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
+
+                  <div class="container">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand page-scroll" href="index.html">SERC</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a class="page-scroll" href="#about-section">Profile</a></li>                           
+                            <li><a class="page-scroll" href="#contact-section">Contact</a></li>
+                            <button id="adminenter" onclick="myfun()">Enter Admin Mode</button>
+                            <button id="adminexit" onclick="myfun2()">Exit Admin Mode</button>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container -->
+                </nav>
+                <!-- End Navbar -->
+
+            </header>
+            <!-- ========= END HEADER =========-->
+            
+            
+            
+            
+        	<!-- Begin text carousel intro section -->
+			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(images/dark_black_red_shapes_4k_hd_abstract.jpg);">
+				
+				<div class="container">
+					<div class="caption text-center text-white" data-stellar-ratio="0.7">
+
+						<div id="owl-intro-text" class="owl-carousel">
+							<div class="item">
+								<h1>Software Engineering Research Center</h1>
+								<p>Empirical Research and Process Improvement</p>
+                                <div class="extra-space-l"></div>
+								<a class="btn btn-blank" href="#" target="_blank" role="button">View More!</a>
+							</div>
+							<div class="item">
+								<h1>Software Engineering Research Center</h1>
+								<p>Complex System Development</p>
+								<div class="extra-space-l"></div>
+								<a class="btn btn-blank" href="#" target="_blank" role="button">View More!</a>
+							</div>
+							<div class="item">
+								<h1>Software Engineering Research Center</h1>
+								<p>Cloud Computing</p>
+								<div class="extra-space-l"></div>
+								<a class="btn btn-blank" href="#" target="_blank" role="button">View More!</a>
+							</div>
+                            <div class="item">
+								<h1>Software Engineering Research Center</h1>
+								<p>Education Technologies</p>
+								<div class="extra-space-l"></div>
+								<a class="btn btn-blank" href="#" target="_blank" role="button">View More!</a>
+							</div>
+						</div>
+
+					</div> <!-- /.caption -->
+				</div> <!-- /.container -->
+
+			</section>
+			<!-- End text carousel intro section -->
+                
+                
+                
+                
+            <!-- Begin about section -->
+			<section id="about-section" class="page bg-style1"></section>
+                <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <h2>Profile</h2>
+                            <div class="devider"></div>
+                            </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+                
+          </section>
+          <!-- End about section -->
+
+
+         <!-- Raghu -->
+         <main>
+      
+            <section class="well1 ins3">
+                <div class="container">
+                    <h2>Kesav V. Nori</h2>
+                    <div class="row off1">
+                        <div class="grid_9 personal_page">
+                            
+                                <h3>About</h3>
+                                <p>Professor Kesav Vithal Nori is executive Director and executive Vice President of Tata Consultancy Services (TCS) and is one of the pioneers of TCS's computer-based adult literacy programme which has been successful all over India and in South Africa. Nori has a distinguished career that has alternated between academics and industrial research within TCS. Previously, Nori was with the Tata Research Development and Design Centre (TRDDC), the R&D wing of TCS. Nori received his MTech from IIT Kanpur where he continued to work as a senior research associate from 1968 to 1970. Nori then became a research scientist at the Computer Group in the Tata Institute of Fundamental Research (TIFR). He then returned to teach at IIT Kanpur. In addition, Nori was Visiting Faculty at Carnegie Mellon University (CMU) in Pittsburgh, USA and finally returned to TRDDC and TCS.</p>
+                                <hr class="small_margins">
+                            
+                            
+                                <h3>Research Interests</h3>
+                                <ul>
+        <li>Computer Science Education</li>
+        <li>Software Archtiecture</li>
+        <li>Compilers</li>
+        <li>Technology for Education</li>
+        </ul>
+                                <hr class="small_margins">
+                            
+                        </div>
+                        <div class="grid_3">
+                        <div class="row">
+                            <div class="grid_3 wow fadeInRight image_personal"><img src="/static/images/people/nori.jpg" alt=""></div>
+                            <div class="grid_3 wow fadeInRight social_personal">
+                                <center>
+                                    
+                                    <b>M.Tech., Indian Institute of Technology, Kanpur</b>
+                                    <br>
+                                    
+                                    
+                                    <a href="https://www.linkedin.com/in/kesav-vithal-nori-069758b" rel="nofollow" target="_blank" title="Personal website"><i class="fa fa-globe" title="Personal website"></i></a>
+                                    
+                                    
+                                        <a href="mailto:kesav.nori@gmail.com" title="Email"><i class="fa fa-envelope-o" title="Email"></i></a>
+                                    
+                                    
+                                </center>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row off1">
+                        <div class="grid_12">
+                            <h3>Publications</h3>
+                            
+                            <h4>Journal</h4>
+                            <ul class="publications" id="dynatable_journal" class="row-fluid">
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Requirements for design of processes.</span> <span class="location">Software Process: Improvement and Practice 2009</span>: <span class="page">129-142</span> <a href="http://dx.doi.org/10.1002/spip.415" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                            </ul>
+                            <hr>
+                            
+                            <h4>Editorship</h4>
+                            <ul class="publications" id="dynatable_editorship" class="row-fluid">
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors">Somenath Biswas, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Foundations of Software Technology and Theoretical Computer Science, 11th Conference, New Delhi, India, December 17-19, 1991, Proceedings</span> <span class="location">Lecture Notes in Computer Science 1991</span>: <span class="page">560</span> <a href="http://dblp.uni-trier.de/db/conf/fsttcs/fsttcs91.html" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Kesav V. Nori</a>, C. E. Veni Madhavan</span>: <span class="title">Foundations of Software Technology and Theoretical Computer Science, Tenth Conference, Bangalore, India, December 17-19, 1990, Proceedings</span> <span class="location">Lecture Notes in Computer Science 1990</span>: <span class="page">472</span> <a href="http://dblp.uni-trier.de/db/conf/fsttcs/fsttcs90.html" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Kesav V. Nori</a>, Sanjeev Kumar</span>: <span class="title">Foundations of Software Technology and Theoretical Computer Science, Eighth Conference, Pune, India, December 21-23, 1988, Proceedings</span> <span class="location">Lecture Notes in Computer Science 1988</span>: <span class="page">338</span> <a href="http://dblp.uni-trier.de/db/conf/fsttcs/fsttcs88.html" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Foundations of Software Technology and Theoretical Computer Science, Seventh Conference, Pune, India, December 17-19, 1987, Proceedings</span> <span class="location">Lecture Notes in Computer Science 1987</span>: <span class="page">287</span> <a href="http://dblp.uni-trier.de/db/conf/fsttcs/fsttcs87.html" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Foundations of Software Technology and Theoretical Computer Science, Sixth Conference, New Delhi, India, December 18-20, 1986, Proceedings</span> <span class="location">Lecture Notes in Computer Science 1986</span>: <span class="page">241</span> <a href="http://dblp.uni-trier.de/db/conf/fsttcs/fsttcs86.html" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                            </ul>
+                            <hr>
+                            
+                            <h4>Conference and Workshop</h4>
+                            <ul class="publications" id="dynatable_conference-and-workshop" class="row-fluid">
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors">Amar Banerjee, <a href="publication.html">Venkatesh Choppella</a>, <a href="publication.html">Viswanath Kasturi</a>, Swaminathan Natarajan, <a href="publication.html">Padmalata V. Nistala</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">An Attempt at Explicating the Relationship between Knowledge, Systems and Engineering.</span> <span class="location">ISEC 2018</span>: <span class="page">5:1-5:11</span> <a href="http://doi.acm.org/10.1145/3172871.3172875" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Kesav V. Nori</a>, Swaminathan Natarajan, <a href="publication.html">Padmalata V. Nistala</a></span>: <span class="title">A Process Framework for Product Quality Achievement.</span> <span class="location">ISEC 2016</span>: <span class="page">199-200</span> <a href="http://doi.acm.org/10.1145/2856636.2856662" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Y Raghu Reddy</a>, <a href="publication.html">Kesav V Nori</a></span>: <span class="title">Teaching software product engineering in undergraduate computing curriculum</span> <span class="location">Software Engineering Education and Training (CSEE&amp;T), 2014 IEEE 27th Conference on 2014</span>: <span class="page">175-178</span> <a href="https://scholar.google.co.in/citations?view_op=view_citation&amp;hl=en&amp;user=-WWiT4MAAAAJ&amp;cstart=20&amp;pagesize=80&amp;citation_for_view=-WWiT4MAAAAJ:IjCSPb-OGe4C" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Kesav V Nori</a>, <a href="publication.html">Y Raghu Reddy</a>, <a href="publication.html">Sridhar Chimalakonda</a></span>: <span class="title">Challenges for software engineering in educational technologies</span> <span class="location">Contemporary Computing and Informatics (IC3I), 2014 International Conference on 2014</span>: <span class="page">267-272</span> <a href="https://scholar.google.co.in/citations?view_op=view_citation&amp;hl=en&amp;user=-WWiT4MAAAAJ&amp;cstart=20&amp;pagesize=80&amp;citation_for_view=-WWiT4MAAAAJ:Y0pCki6q_DkC" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Y. Raghu Reddy</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Teaching software product engineering in undergraduate computing curriculum.</span> <span class="location">CSEE&amp;T 2014</span>: <span class="page">175-178</span> <a href="http://dx.doi.org/10.1109/CSEET.2014.6816798" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">A Patterns-Based Approach for Modeling Instructional Design and TEL Systems.</span> <span class="location">ICALT 2014</span>: <span class="page">54-56</span> <a href="http://dx.doi.org/10.1109/ICALT.2014.26" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">On the nature of roles in software engineering.</span> <span class="location">CHASE 2014</span>: <span class="page">91-94</span> <a href="http://doi.acm.org/10.1145/2593702.2593721" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">EasyAuthor: supporting low computer proficiency teachers in the design of educational content for adult illiterates.</span> <span class="location">CHI Extended Abstracts 2013</span>: <span class="page">649-654</span> <a href="http://doi.acm.org/10.1145/2468356.2468471" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">What makes it hard to teach software engineering to end users? some directions from adaptive and personalized learning.</span> <span class="location">CSEE&amp;T 2013</span>: <span class="page">324-328</span> <a href="http://dx.doi.org/10.1109/CSEET.2013.6595270" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Designing Technology for 287 Million Learners.</span> <span class="location">ICALT 2013</span>: <span class="page">197-198</span> <a href="http://dx.doi.org/10.1109/ICALT.2013.60" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">GURU: An Experimental Interactive Environment for Teachers/Learners.</span> <span class="location">ICALT 2013</span>: <span class="page">248-249</span> <a href="http://dx.doi.org/10.1109/ICALT.2013.76" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">IDont: An Ontology Based Educational Modeling Framework for Instructional Design.</span> <span class="location">ICALT 2013</span>: <span class="page">253-255</span> <a href="http://dx.doi.org/10.1109/ICALT.2013.78" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">What makes it hard to apply software product lines to educational technologies?</span> <span class="location">PLEASE@ICSE 2013</span>: <span class="page">17-20</span> <a href="http://dx.doi.org/10.1109/PLEASE.2013.6608657" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Software Engineering Aids to Accelerate Educational Technologies.</span> <span class="location">ICALT 2012</span>: <span class="page">495-496</span> <a href="http://dx.doi.org/10.1109/ICALT.2012.217" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Towards a Synthesis of Learning Methodologies, Learning Technologies and Software Product Lines.</span> <span class="location">ICALT 2012</span>: <span class="page">732-733</span> <a href="http://dx.doi.org/10.1109/ICALT.2012.204" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">A Software Engineering Perspective for Accelerating Educational Technologies.</span> <span class="location">ICALT 2012</span>: <span class="page">754-755</span> <a href="http://dx.doi.org/10.1109/ICALT.2012.214" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">What makes it hard to design instructional software? Towards a collaborative platform for stakeholders of instructional software.</span> <span class="location">CHASE 2012</span>: <span class="page">15-19</span> <a href="http://dx.doi.org/10.1109/CHASE.2012.6223013" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Towards a Model Driven eLearning Framework to Improve Quality of Teaching.</span> <span class="location">T4E 2012</span>: <span class="page">138-143</span> <a href="http://dx.doi.org/10.1109/T4E.2012.29" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Can we make software engineering education better by applying learning theories?</span> <span class="location">CSEE&amp;T 2011</span>: <span class="page">561</span> <a href="http://dx.doi.org/10.1109/CSEET.2011.5876157" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Sridhar Chimalakonda</a>, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Automating an eLearning System - A Case Study.</span> <span class="location">CSEE&amp;T 2009</span>: <span class="page">150-153</span> <a href="http://dx.doi.org/10.1109/CSEET.2009.35" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors">Alan M. Davis, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Requirements, Plato&#39;s Cave, and Perceptions of Reality.</span> <span class="location">COMPSAC (2) 2007</span>: <span class="page">487-492</span> <a href="http://dx.doi.org/10.1109/COMPSAC.2007.182" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Kesav V. Nori</a>, N. Swaminathan</span>: <span class="title">A framework for software product engineering.</span> <span class="location">APSEC 2006</span>: <span class="page">285-292</span> <a href="http://dx.doi.org/10.1109/APSEC.2006.5" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors">Doji Samson Lokku, <a href="publication.html">Kesav V. Nori</a></span>: <span class="title">Morphogenetic constraint-satisfaction based approach for organizational engineering.</span> <span class="location">SAC 2006</span>: <span class="page">1563-1564</span> <a href="http://doi.acm.org/10.1145/1141277.1141639" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                                <li class="span4" data-color="gray">
+                                    <div><span class="authors"><a href="publication.html">Kesav V. Nori</a>, Sanjeev Kumar, M. Pavan Kumar</span>: <span class="title">Retrospection on the Compiler Structure.</span> <span class="location">FSTTCS 1987</span>: <span class="page">500-527</span> <a href="http://dx.doi.org/10.1007/3-540-18625-5_71" target="_blank" rel="nofollow" class="link"><i class="fa fa-external-link"></i></a></div>
+                                </li>
+                                
+                            </ul>
+                            <hr>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+        <!-- <link rel="stylesheet" href="/static/css/jquery.dynatable.css"> -->
+        <!-- <script src="/static/js/jquery.dynatable.js"></script> -->
+        <script>
+            (function ($) {
+                function publicationWriter(rowIndex, record, columns, cellWriter) {
+                var cssClass = "span4", li;
+                li = '<div><li class="' + cssClass + '"><span class="authors">' + record.authors + '</span>: <span class="title">"' + record.title + '"</span> <span class="location">' + record.location + '</span> ';
+                if(record.page !== "") {
+                    li += '(pp. <span class="page">' + record.page + '</span>) ';
+                }
+                li +='<a href="' + record.link + '" target="_blank" rel="nofollow" class="link" '+ record.link_present +'><i class="fa fa-external-link"></i></a></div>';
+                return li;
+            }
+    
+            // Function that creates our records from the DOM when the page is loaded
+            function publicationReader(index, li, record) {
+                var $li = $(li);
+                try {
+                    var $a = $li.find("a.link")[0];
+                    var link = $a.href;
+                    var present = "";
+                }
+                catch(e) {
+                    var link = "#";
+                    var present = "style='display: none;'";
+                }
+                record.authors = $li.find('.authors').html();
+                record.title = $li.find('.title').text();
+                record.location = $li.find('.location').text();
+                record.page = $li.find('.page').text();
+                record.year = $li.find('.year').text();
+                record.link = link;
+                record.link_present = present;
+            }
+            
+            $('#dynatable_journal').dynatable({
+                table: {
+                    bodyRowSelector: 'li'
+                },
+                dataset: {
+                    perPageDefault: 10,
+                    perPageOptions: [10, 20, 30, 40]
+                },
+                writers: {
+                    _rowWriter: publicationWriter
+                },
+                readers: {
+                    _rowReader: publicationReader
+                },
+                params: {
+                    records: 'publications'
+                }
+            });
+            
+            $('#dynatable_editorship').dynatable({
+                table: {
+                    bodyRowSelector: 'li'
+                },
+                dataset: {
+                    perPageDefault: 10,
+                    perPageOptions: [10, 20, 30, 40]
+                },
+                writers: {
+                    _rowWriter: publicationWriter
+                },
+                readers: {
+                    _rowReader: publicationReader
+                },
+                params: {
+                    records: 'publications'
+                }
+            });
+            
+            $('#dynatable_conference-and-workshop').dynatable({
+                table: {
+                    bodyRowSelector: 'li'
+                },
+                dataset: {
+                    perPageDefault: 10,
+                    perPageOptions: [10, 20, 30, 40]
+                },
+                writers: {
+                    _rowWriter: publicationWriter
+                },
+                readers: {
+                    _rowReader: publicationReader
+                },
+                params: {
+                    records: 'publications'
+                }
+            });
+            
+        })(jQuery);
+        </script>
+    
+          </main>
+                
+            <!-- Begin social section -->
+			<section id="social-section">
+            
+                 <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>Join Us</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle">Follow us on social networks</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+                
+                <div class="container">
+                	<ul class="social-list">
+                		<li> <a target="_blank" href="https://www.facebook.com/SERC.IIITH/" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.3s"><span class="rotate-box-icon"><i class="fa fa-facebook"></i></span></a></li>
+                		<li> <a target="_blank" href="https://twitter.com/SERC_IIITH" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.4s"><span class="rotate-box-icon"><i class="fa fa-twitter"></i></span></a></li>
+                		<li> <a target="_blank" href="https://in.linkedin.com/company/serciiith" class="rotate-box-1 square-icon text-center wow zoomIn" data-wow-delay="0.5s"><span class="rotate-box-icon"><i class="fa fa-linkedin"></i></span></a></li>
+                      
+                    </ul>
+                    </ul>
+                    </ul>
+                </div>
+                
+            </section>
+            <!-- End social section -->
+                
+                
+                
+                
+            <!-- Begin contact section -->
+			<section id="contact-section" class="page text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/map-bg.jpg);">
+            <div class="cover"></div>
+            
+                 <!-- Begin page header-->
+                <div class="page-header-wrapper">
+                    <div class="container">
+                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                            <h2>Contacts</h2>
+                            <div class="devider"></div>
+                            <p class="subtitle">All to contact us</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End page header-->
+                
+                <div class="contact wow bounceInRight" data-wow-delay="0.4s">
+                    <div class="container">
+                    	<div class="row">
+                        
+                            <div class="col-sm-6">
+                                <div class="contact-info">
+                                    <h4>Our Address</h4>
+                                    <ul class="contact-address">
+			                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; B5-205,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; International Institute of Information Technology,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 500032, Gachibowli Rd, Gachibowli, <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hyderabad, Telangana</li>
+			                            <li><i class="fa fa-phone"></i>&nbsp; +91-40-66531584</li>
+			                            <li><i class="fa fa-print"></i>&nbsp; +91-40-6653 1413</li>
+			                            <li><i class="fa fa-envelope"></i> serc@iiit.ac.in</li>
+			                        </ul>
+                                </div>
+                            </div>
+                        
+                        	<div class="col-sm-6">
+                                <div class="contact-form">
+                                	<h4>Write to us</h4>
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control input-lg" placeholder="Your Name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control input-lg" placeholder="E-mail" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control input-lg" placeholder="Subject" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control input-lg" rows="5" placeholder="Message" required></textarea>
+                                        </div>
+                                        <button type="submit" class="btn wow bounceInRight" data-wow-delay="0.8s">Send</button>
+                                    </form>
+                                </div>	
+                            </div>
+                                                                                
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                </div>
+            </section>
+            <!-- End contact section -->
+                
+                
+
+                
+            <!-- Begin footer -->
+            <footer class="text-off-white">
+            
+                <div class="footer-top">
+                	<div class="container">
+                    	<div class="row wow bounceInLeft" data-wow-delay="0.4s">
+
+                            <div class="col-sm-6 col-md-4">
+                            	<h4>Useful Links</h4>
+                                <ul class="imp-links">
+                                	<li><a href="http://dblp.uni-trier.de/db/journals/cacm/turing.html">List of ACM Turing Award Lectures</a></li> <br>
+                                	<li><a href="http://www.sigsoft.org/awards/mostInfPapAwd.htm">ICSE's Most Influential Papers</a></li> <br>
+                                	<li><a href="http://people.engr.ncsu.edu/txie/sereading.htm">Software Engineering Readings</a></li> <br>
+                                	<li><a href="http://www.cs.wm.edu/semeru/index.html">Software Engineering Research Centers</a></li> <br>
+                                	<li><a href="http://www.cs.illinois.edu/homes/taoxie/sereading.htm">Conferences and journals by Tao Xie</a></li> <br>
+                                	<li><a href="http://www.sigsoft.org/phdDissertations/">PhD Dissertations in Software Engineering</a></li> <br>
+                                    <li><a href="https://github.com/SIREN-DST/Crawling-Engines/blob/master/Microstack(Openstack)_Configuration.pdf">Microstack Ussuri Configuration Document</a></li>
+                                </ul>
+                            </div>
+                        
+                        	<div class="col-sm-6 col-md-4">
+                                <h4>Subscribe to Emails</h4>
+                            	<div id="footer_signup">
+                                    <div id="email">
+                                        <form id="subscribe" method="GET">
+                                            <input type="text" placeholder="Enter email address" name="email" id="address" data-validate="validate(required, email)"/>
+                                            <button type="submit">Submit</button>
+                                            <span id="result" class="section-description"></span>
+                                        </form> 
+                                    </div>
+                                </div> 
+                                
+                            </div>
+
+                            <div class="col-sm-12 col-md-4">
+                                <h4>Recent Tweets</h4>
+                                <!-- <div class="single-tweet">
+                                    <div class="tweet-content"><span>@Unika</span> Excepteur sint occaecat cupidatat non proident</div>
+                                    <div class="tweet-date">1 Hour ago</div>
+                                </div>
+                                <div class="single-tweet">
+                                    <div class="tweet-content"><span>@Unika</span> Excepteur sint occaecat cupidatat non proident uku shumaru</div>
+                                    <div class="tweet-date">1 Hour ago</div>
+                                </div> -->
+                                <div class="twitterr">
+                                    <a class="twitter-timeline" data-dnt="true" data-theme="dark" href="https://twitter.com/SERC_IIITH?ref_src=twsrc%5Etfw">Tweets by SERC_IIITH</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                                </div>
+                                <a href="https://twitter.com/SERC_IIITH?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-dnt="true" data-show-count="false">Follow @SERC_IIITH</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                                <a href="https://twitter.com/intent/tweet?screen_name=SERC_IIITH&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-dnt="true" data-show-count="false">Tweet to @SERC_IIITH</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                            
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                </div>
+                
+                <div class="footer">
+                    <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
+                        <p class="copyright">© 2021 Software Engineering Research Center (SERC), IIIT-Hyderabad.</p>
+                        <p>Copyright &copy; 2021 - Designed By <a href="https://amanizardar.github.io/" class="theme-author">Aman Izardar</a>  </p>
+                    </div>
+                </div>
+
+            </footer>
+            <!-- End footer -->
+
+            <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+                                              
+        </div><!-- body ends -->
+        
+        
+        
+        
+        <!-- Plugins JS -->
+		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
+		<script src="inc/bootstrap/js/bootstrap.min.js"></script>
+		<script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+		<script src="inc/stellar/js/jquery.stellar.min.js"></script>
+		<script src="inc/animations/js/wow.min.js"></script>
+        <script src="inc/waypoints.min.js"></script>
+		<script src="inc/isotope.pkgd.min.js"></script>
+		<script src="inc/classie.js"></script>
+		<script src="inc/jquery.easing.min.js"></script>
+		<script src="inc/jquery.counterup.min.js"></script>
+		<script src="inc/smoothscroll.js"></script>
+
+		<!-- Theme JS -->
+		<script src="js/theme.js"></script>
+
+    </body> 
+        
+            
+</html>
